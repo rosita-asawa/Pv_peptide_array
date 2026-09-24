@@ -2,7 +2,7 @@
 
 Coordinating custom scripts for _PLoS Pathogens_ manuscript, accepted September 2026 <br>
 https://www.biorxiv.org/content/10.64898/2026.03.17.712326v1 <br>
-**Title:** Comprehensive characterization of P. vivax antigens using high-density peptide array <br>
+**Title:** Comprehensive characterization of _P. vivax_ antigens using high-density peptide array <br>
 **Authors:** Rosita R Asawa1, Brittany Hazzard1, Kieran Tebben1, John Tan2, Andrea Berry3, Niraj Tolia4, Jean Popovici5, David Serre1*
 
 1-Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore MD, USA <br>
