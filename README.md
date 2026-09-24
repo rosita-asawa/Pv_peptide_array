@@ -1,6 +1,7 @@
 # Pv_peptide_array
 
-Coordinating custom scripts for MBio manuscript submission <br>
+Coordinating custom scripts for accepted PLoS Pathogens manuscript <br>
+https://www.biorxiv.org/content/10.64898/2026.03.17.712326v1 <br>
 **Title:** Comprehensive characterization of P. vivax antigens using high-density peptide array <br>
 **Authors:** Rosita R Asawa1, Brittany Hazzard1, Kieran Tebben1, John Tan2, Andrea Berry3, Niraj Tolia4, Jean Popovici5, David Serre1*
 
