@@ -1,7 +1,7 @@
 # Pv_peptide_array
 
-Coordinating custom scripts for _PLoS Pathogens_ manuscript, accepted September 2026 <br>
-https://www.biorxiv.org/content/10.64898/2026.03.17.712326v1 <br>
+Coordinating custom scripts for _PLoS Pathogens_ manuscript, published October 2026 <br>
+https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014621 <br>
 **Title:** Comprehensive characterization of _P. vivax_ antigens using high-density peptide array <br>
 **Authors:** Rosita R Asawa1, Brittany Hazzard1, Kieran Tebben1, John Tan2, Andrea Berry3, Niraj Tolia4, Jean Popovici5, David Serre1*
 
@@ -15,35 +15,35 @@ https://www.biorxiv.org/content/10.64898/2026.03.17.712326v1 <br>
 
 
 **Scripts included** <br>
-**Peptides_seroreactivity.R**
+**Peptides_immunogenicity.R**
 - Order peptide array by amino acid position
-- Seroreactivity set up: Symptomatic pv patients
-  - Table S3: seroreactivity of symptomatic Pv patients across P01 genome
-  - numbers: seroreactive peptides per sample
-  - numbers: seroreactive regions per sample
-  - numbers: seroreactive regions per gene
-  - numbers: seroreactive segments/proteins shared across patients
-  - numbers: FDR for significance
+- Immunogenicity set up: Symptomatic pv patients
+  - Table S3: immunogenicity of symptomatic Pv patients across P01 genome
+  - Numbers: immunoreactive peptides per sample
+  - Numbers: immunoreactive regions per sample
+  - Numbers: immunoreactive regions per gene
+  - Numbers: immunoreactive segments/proteins shared across patients
+  - Numbers: FDR for significance
   - Fig S3: histogram of reactive region length
   - Fig S3: IQR of histogram of reactive region length
-- Seroreactivity set up: Asymptomatic pv patients
-  - Table S4: seroreactivity of asymptomatic Pv patients across P01 genome
-  - numbers: asymptomatic vs random symptomatic segment reactivity rates
-- Seroreactivity plots: Symptomatic Pv patients, time 1, repeat peptide marker
-- Seroreactivity plots: Asymptomatic Pv patients, time 1, repeat peptide marker
+- Immunogenicity set up: Asymptomatic pv patients
+  - Table S4: immunogenicity of asymptomatic Pv patients across P01 genome
+  - Numbers: asymptomatic vs random symptomatic segment reactivity rates
+- Immunogenicity plots: Symptomatic Pv patients, time 1, repeat peptide marker
+- Immunogenicity plots: Asymptomatic Pv patients, time 1, repeat peptide marker
 
 **Peptides_enrichment.R**
 - Symptomatic pv patient enrichment
-  - numbers: disorder enrichment within seroreactive segments
-  - numbers: repeated peptide enrichment within seroreactive segments
-  - numbers: NUP enrichment within seroreactive proteins
-  - numbers: asparagine repeat enrichment within seroreactive segments
+  - Numbers: disorder enrichment within immunoreactive segments
+  - Numbers: repeated peptide enrichment within immunoreactive segments
+  - Numbers: NUP enrichment within immunoreactive proteins
+  - Numbers: asparagine repeat enrichment within immunoreactive segments
 - Fig S5: correlation plot of kmers by antigenicity
   - Asymptomatic Pv patient enrichment
-  - numbers: PIR enrichment within seroreactive proteins
+  - Numbers: PIR enrichment within immunoreactive proteins
 
 **Peptides_expression.R** <br>
 - Bulk RNA-seq of symptomatic pv patients
-	- numbers: normalize to CPM and rank expression
-	- Fig 2: binned expression vs seroreactivity
-	- numbers: logistic regression of mean expression vs seroreactivity
+	- Numbers: normalize to CPM and rank expression
+	- Fig 2: binned expression vs immunogenicity
+	- Numbers: logistic regression of mean expression vs immunogenicity
