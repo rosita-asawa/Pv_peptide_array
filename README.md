@@ -14,7 +14,7 @@ https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014621 
 
 
 
-**Scripts included** <br>
+**Scripts included:** <br>
 _Peptides_immunogenicity.R_
 - Order peptide array by amino acid position
   - Create list of repeat peptides across PVP01 proteins
@@ -43,14 +43,13 @@ _Peptides_enrichment.R_
 - Asymptomatic Pv patient enrichment
   - Numbers: PIR enrichment within immunoreactive proteins
 
-_Peptides_expression.R_ <br>
+_Peptides_expression.R_
 - Bulk RNA-seq of symptomatic pv patients
 	- Numbers: normalize to CPM and rank expression
 	- Fig 2: binned expression vs immunogenicity
 	- Numbers: logistic regression of mean expression vs immunogenicity
 
-**Other files**
-_Required to run scripts_
+**Other files required to run scripts** <br>
 - pv_genome_v68.txt
 - pondr_segments_output.txt
 - Pv_CountTable_RAW.txt
