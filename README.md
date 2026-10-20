@@ -2,7 +2,7 @@
 
 Coordinating custom scripts for _PLoS Pathogens_ manuscript, published October 2026 <br>
 https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014621 <br>
-**Title:** Proteome-wide characterization of <i>Plasmodium vivax<i> antigens using a high-density peptide array <br>
+**Title:** Proteome-wide characterization of _Plasmodium vivax_ antigens using a high-density peptide array <br>
 **Authors:** Rosita R Asawa1, Brittany Hazzard1, Kieran Tebben1, John Tan2, Andrea Berry3, Niraj Tolia4, Jean Popovici5, David Serre1*
 
 1-Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore MD, USA <br>
