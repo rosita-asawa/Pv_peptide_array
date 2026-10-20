@@ -15,8 +15,9 @@ https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014621 
 
 
 **Scripts included** <br>
-**Peptides_immunogenicity.R**
+_Peptides_immunogenicity.R_
 - Order peptide array by amino acid position
+  - Create list of repeat peptides across PVP01 proteins
 - Immunogenicity set up: Symptomatic pv patients
   - Table S3: immunogenicity of symptomatic Pv patients across P01 genome
   - Numbers: immunoreactive peptides per sample
@@ -32,17 +33,17 @@ https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014621 
 - Immunogenicity plots: Symptomatic Pv patients, time 1, repeat peptide marker
 - Immunogenicity plots: Asymptomatic Pv patients, time 1, repeat peptide marker
 
-**Peptides_enrichment.R**
+_Peptides_enrichment.R_
 - Symptomatic pv patient enrichment
   - Numbers: disorder enrichment within immunoreactive segments
   - Numbers: repeated peptide enrichment within immunoreactive segments
   - Numbers: NUP enrichment within immunoreactive proteins
   - Numbers: asparagine repeat enrichment within immunoreactive segments
-- Fig S5: correlation plot of kmers by antigenicity
-  - Asymptomatic Pv patient enrichment
+  - Fig S5: correlation plot of kmers by antigenicity
+- Asymptomatic Pv patient enrichment
   - Numbers: PIR enrichment within immunoreactive proteins
 
-**Peptides_expression.R** <br>
+_Peptides_expression.R_ <br>
 - Bulk RNA-seq of symptomatic pv patients
 	- Numbers: normalize to CPM and rank expression
 	- Fig 2: binned expression vs immunogenicity
