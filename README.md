@@ -48,3 +48,11 @@ _Peptides_expression.R_ <br>
 	- Numbers: normalize to CPM and rank expression
 	- Fig 2: binned expression vs immunogenicity
 	- Numbers: logistic regression of mean expression vs immunogenicity
+
+**Other files**
+_Required to run scripts_
+- pv_genome_v68.txt
+- pondr_segments_output.txt
+- Pv_CountTable_RAW.txt
+- kmer_analysis.txt
+- kmer_summary.txt
